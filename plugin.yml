@@ -1,0 +1,11 @@
+name: Nio-Drops
+version: 0.1
+main: NioDrops
+description: Adds the ability to customize drops.
+api-version: 1.13
+commands:
+  reloadNioDrops:
+      description: Reloads NioDrops.
+      usage: /reloadNioDrops
+      permission: niodrops.reload
+      permission-message: You don't have permission to reload NioDrops.
